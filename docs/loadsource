@@ -1,0 +1,13 @@
+If you have source audio that you need to load on your tablet, it muxt be in the exact format as the project.
+It must be:
+
+  * for the same Bible book
+  * the same translation type (REG, UDB, or ULB)
+  * recorded in the same mode (either verse or chunk mode)
+  
+The source audio should be a file with the extension .tr.
+
+When the source audio is created in translationRecorder, it can be saved anywhere on the device. 
+When loading source audio into translationRecorder, the file picker opens to the TranslationRecorder directory of the internal
+storage, so if the source audio file has been downloaded there, it is easy to find. However, the file picker enables you to 
+navigate to any other directory on your device to load source audio from any location.
